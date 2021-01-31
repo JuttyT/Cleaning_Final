@@ -1,6 +1,5 @@
 # Cleaning_Final
 Final assignment for R Getting and Cleaning Data
-README.md in the repo describing how the script works and the code book describing the variables.
 
 Info regarding the dataset is available from the UCI Machine Learning Repository:  http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
@@ -11,4 +10,4 @@ The study subject (participant number) is added to the testing and training data
 
 Since only the mean and standard deviations are needed, the relevant columns are extracted from [full_frame] and those elements are bound to form [means_stdevs_frame]
 
-Next the averages are calculated for each column in [means_stdevs_frame] by a group of "activity" and "subject"
+Next the averages are calculated for each column in [means_stdevs_frame] by a group of "activity" and "subject" to form the tidy data set
